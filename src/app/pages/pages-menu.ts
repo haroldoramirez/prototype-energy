@@ -1,11 +1,11 @@
 import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
-  // {
-  //   title: 'Cadastro',
-  //   icon: 'bulb-outline',
-  //   link: '/pages/energia',
-  // },
+   {
+     title: 'Cadastro',
+     icon: 'bulb-outline',
+     link: '/pages/energy/cadastro',
+  },
   //  {
   //    title: 'E-commerce',
   //    icon: 'shopping-cart-outline',
