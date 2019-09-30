@@ -7,6 +7,8 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { ECommerceModule } from './e-commerce/e-commerce.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
+import { CadastroPasswordComponent } from './password/cadastro-password/cadastro-password.component';
+import { CadastroComponent } from './energy/cadastro/cadastro.component';
 
 @NgModule({
   imports: [
@@ -19,6 +21,8 @@ import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
   ],
   declarations: [
     PagesComponent,
+    CadastroComponent,
+    CadastroPasswordComponent,
   ],
 })
 export class PagesModule {

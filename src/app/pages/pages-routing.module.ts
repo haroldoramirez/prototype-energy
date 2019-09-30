@@ -16,6 +16,11 @@ const routes: Routes = [{
         .then(m => m.EnergyModule),
     },
     {
+      path: 'password',
+      loadChildren: () => import('./password/password.module')
+        .then(m => m.PasswordModule),
+    },
+    {
       path: 'dashboard',
       component: ECommerceComponent,
     },

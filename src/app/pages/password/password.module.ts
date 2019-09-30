@@ -6,9 +6,9 @@ import { ThemeModule } from './../../@theme/theme.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ButtonsComponent } from '../forms/buttons/buttons.component';
-import { CadastroComponent } from './cadastro/cadastro.component';
-import { EnergyRoutingModule } from './energy-routing.module';
-import { EnergyComponent } from './energy.component';
+import { PasswordRoutingModule } from './password-routing.module';
+import { CadastroPasswordComponent } from './cadastro-password/cadastro-password.component';
+import { PasswordComponent } from './password.component';
 
 import {
   NbActionsModule,
@@ -37,11 +37,11 @@ import {
     NbDatepickerModule,
     NbSelectModule,
     NbIconModule,
-    EnergyRoutingModule,
+    PasswordRoutingModule,
   ],
   declarations: [
-    CadastroComponent,
-    EnergyComponent,
+    CadastroPasswordComponent,
+    PasswordComponent,
     FormsComponent,
     ButtonsComponent,
     FormInputsComponent,
@@ -50,4 +50,4 @@ import {
   ],
 })
 
-export class EnergyModule { }
+export class PasswordModule { }

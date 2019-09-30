@@ -6,6 +6,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
      icon: 'bulb-outline',
      link: '/pages/energy/cadastro',
   },
+  {
+    title: 'Password',
+    icon: 'bulb-outline',
+    link: '/pages/password/cadastro',
+ },
   //  {
   //    title: 'E-commerce',
   //    icon: 'shopping-cart-outline',
